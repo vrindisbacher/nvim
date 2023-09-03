@@ -23,4 +23,5 @@ General:
 - C-w followed by direction : navigate between panes 
 - :vs to split vertical 
 - :sp to split horizontal
+- C-^ : back to previous buffer 
 
