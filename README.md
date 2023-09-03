@@ -1,12 +1,26 @@
+Lsp: 
 
-# nvim remaps 
+- gt : goto def 
+- hov : hover 
+- Space vd : open diagnostic 
+- Gtn - go to next 
+- Gtp.- got to prev 
+- Space vca - code action 
+- Space vrr - view references 
+- Space vrn - rename
 
-- space pf - project find (find files to open) 
-- space ps - project search (search with grep)
-- space pv - go back (open directory file picker) (previous view)
-- space tf - load harpoon 
-- space a - add to harpoon 
-- space 1 - 4 : nav between files with harpoon
-- ctrl + y to accept auto complete
+Harpoon: 
+- Space tf - view files 
+- Space a - add file to harpoon 
+- Space 1 - 4 open that file 
 
-for command auto complete - tab followed by ctrl + n and ctrl + p to navigate
+Telescope:  
+   - Space pf - Search project for files 
+   - Space ps - Search with grep 
+
+General: 
+- Space pv - previous view
+- C-w followed by direction : navigate between panes 
+- :vs to split vertical 
+- :sp to split horizontal
+
