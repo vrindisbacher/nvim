@@ -1,7 +1,7 @@
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
-vim.keymap.set("n", "C-d", "C-dzz")
-vim.keymap.set("n", "C-d", "C-dzz")
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
 
 vim.keymap.set("n", "<leader>t", function()
     for _, win in ipairs(vim.api.nvim_tabpage_list_wins(0)) do
